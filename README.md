@@ -1,5 +1,5 @@
 # Fan Controller
-### Programming an Embedded Processor to Control a 3-pin Fan
+### Programming an FPGA to Control a 3-pin Fan
 
 This README assumes that the user has already connected the
 Extension board to the FPGA.
