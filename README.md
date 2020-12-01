@@ -148,68 +148,68 @@ ___________________________________________________________________
 
 1. Press Key 3 on the FPGA:
 
-     -> Open-loop mode is selected.
+     * Open-loop mode is selected.
 
 2. Rotate the rotary encoder clockwise:
 
-     -> Duty cycle is increased and fan begins to speed up.
-     -> The change in desired speed and measured speed can
+     * Duty cycle is increased and fan begins to speed up.
+     * The change in desired speed and measured speed can
         be seen on HEX3 to HEX2 and HEX1 to HEX0 respectively.
 
 3. Flip SW0:
 
-     -> PWM frequency is increased from 10Hz to 100Hz.
+     * PWM frequency is increased from 10Hz to 100Hz.
 
 4. Flip SW1:
 
-     -> PWM frequency is increased from 100Hz to 1000Hz.
+     * PWM frequency is increased from 100Hz to 1000Hz.
 
 5. Rotate the rotary encoder counter-clockwise:
 
-     -> Duty cycle is decreased and fan begins to slow down.
+     * Duty cycle is decreased and fan begins to slow down.
 
 6. Flip SW1 back to its initial state:
 
-     -> PWM frequency is decreased from 1000Hz to 100Hz.
+     * PWM frequency is decreased from 1000Hz to 100Hz.
 
 
 7. Press Key 2 on the FPGA:
 
-     -> Closed-loop mode is selected.
+     * Closed-loop mode is selected.
 
 8. Rotate the rotary encoder clockwise:
 
-     -> Desired speed is increased and fan speeds up to match
+     * Desired speed is increased and fan speeds up to match
         the speed.
-     -> Change in measured speed can be observed on HEX1 to HEX0.
+     * Change in measured speed can be observed on HEX1 to HEX0.
 
 9. Flip SW5, SW6 and SW7:
 
-     -> Responsiveness is increased from 1 to 10.
+     * Responsiveness is increased from 1 to 10.
 
 10. Rotate the rotary encoder clockwise:
 
-     -> Each rotational movement increases the desired speed
+     * Each rotational movement increases the desired speed
         by 5 (duty cycle is increased by 10).
 
 11. Flip SW9:
 
-     -> Seven-segment display information changes.
-     -> On-time is now displayed on HEX2 to HEX0.
+     * Seven-segment display information changes.
+     * On-time is now displayed on HEX2 to HEX0.
 
 12. Press Key 1 on the FPGA:
 
-     -> Auto-mode is selected
-     -> Fan begins to gradually speed up until max speed is 
+     * Auto-mode is selected
+     * Fan begins to gradually speed up until max speed is 
         reached, fan then begins to slow down.
 
 13. Flip SW6 and SW7 back to their initial states:
 
-     -> Responsiveness is decreased from 10 to 2.
-     -> The rate at which the fan speed increases/decreases
+     * Responsiveness is decreased from 10 to 2.
+     * The rate at which the fan speed increases/decreases
 	(i.e acceleration) is increased.
 
 14. Press Key 0 on the FPGA:
 
-     -> System is turned off and fan slows down to stationary.
+     * System is turned off and fan slows down to stationary.
 
