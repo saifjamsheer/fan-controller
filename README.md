@@ -1,9 +1,6 @@
 # Fan Controller
 ### Programming an FPGA to Control a 3-pin Fan
 
-This README assumes that the user has already connected the
-Extension board to the FPGA.
-
 The program is used to control the speed of a 3-pin CPU fan
 using the Altera DE1-SoC FPGA as an interface.
 
