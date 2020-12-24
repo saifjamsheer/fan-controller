@@ -1,13 +1,13 @@
 # CPU Fan Controller
 ### Programming an FPGA to Control a 3-pin CPU Fan
 
-*The program is used to control the speed of a 3-pin CPU fan
+* The program is used to control the speed of a 3-pin CPU fan
 using the Altera DE1-SoC FPGA as an interface.
 
-*The fan can be controlled through manual linear voltage regulation
+* The fan can be controlled through manual linear voltage regulation
 or automatic thermostatic control.
 
-*Once the program is executed, the system will start in
+* Once the program is executed, the system will start in
 the 'Off' state (i.e. Mode 0). 
 
 Note: The ribbon cable (connected to the extension board)
