@@ -1,4 +1,4 @@
-# Fan Controller
+# CPU Fan Controller
 ### Programming an FPGA to Control a 3-pin CPU Fan
 
 The program is used to control the speed of a 3-pin CPU fan
