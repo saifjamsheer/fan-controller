@@ -7,13 +7,13 @@ This README assumes the user has access to the necessary hardware.
 
 #### Interface Details
 
-###### Switches
+##### Switches
 The switches can be used to either change the operational
 frequency of the fan, the responsiveness/sensitivity of
 the rotary encoder, or the information that is displayed
 on the seven-segment displays (HEX5 to HEX0).
 
-Switches 0 to 4 (SW0 to SW4):
+###### Switches 0 to 4 (SW0 to SW4):
 
 * These are used to selected the value of the frequency.
 * If a flip is switched, the value of the frequency selected
@@ -27,7 +27,7 @@ Switches 0 to 4 (SW0 to SW4):
 - SW0, SW1, SW2 & SW3: 	     Frequency = 5000 Hz
 - SW0, SW1, SW2, SW3 & SW4:  Frequency = 7500 Hz
 
-Switches 5 to 8 (SW5 to SW8):
+###### Switches 5 to 8 (SW5 to SW8):
 
 * These are used to selected the value of the responsiveness.
 * If a flip is switched, the value of responsiveness selected
@@ -44,12 +44,12 @@ Switches 5 to 8 (SW5 to SW8):
   the fan (the lower the responsiveness the greater the rate 
   of change).
 
-Switch 9 (SW9):
+###### Switch 9 (SW9):
 
 * Changes what information is displayed on the seven-segment
   displays.
 
-###### Keys
+##### Keys
 The keys can be used to swap between modes and turn off the
 system.
 
@@ -60,7 +60,7 @@ on the FPGA:
 - KEY2 (Mode 2)
 - KEY3 (Mode 3)
 
-Mode 1 (Auto Mode - AUtO):
+###### Mode 1 (Auto Mode - AUtO):
 
 * No user interaction is necessary in this mode.
 * The fan will begin to speed up until max speed is reached
@@ -71,7 +71,7 @@ Mode 1 (Auto Mode - AUtO):
 * If switch 9 is up, the on time will be displayed on HEX2 to HEX0.
 * AU will be displayed on HEX5 to HEX4.
 
-Mode 2 (Closed-Loop - CLOSEd):
+###### Mode 2 (Closed-Loop - CLOSEd):
 
 * The rotary encoder is used to set the desired speed. Rotating
   it clockwise increases the desired speed and counter-clockwise
@@ -86,8 +86,7 @@ Mode 2 (Closed-Loop - CLOSEd):
 
 Note: Works best with a PWM Frequency of 100 or 10.
 
-Mode 3 (Open-Loop - OPen):
-
+###### Mode 3 (Open-Loop - OPen):
 * The rotary encoder is used to set the duty cycle. Rotating
   it clockwise increases the duty cycle and counter-clockwise
   decreases the duty cycle.
@@ -101,12 +100,12 @@ To turn the system off press the following key:
 
 - KEY0 (Mode 0)
 
-Mode 0 (Off - OFF):
+###### Mode 0 (Off - OFF):
 
 * The speed of the fan drops to zero.
 * OFF will be displayed on HEX5 to HEX4.
 
-###### LEDs
+##### LEDs
 In modes 1 to 3 the LEDs display the value of the duty cycle 
 (0-100) in tens.
 
